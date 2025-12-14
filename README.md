@@ -93,13 +93,15 @@ Accuracy: 0.90
 <img width="1162" height="657" alt="{42884684-8A86-4834-8CCA-DA4273529876}" src="https://github.com/user-attachments/assets/08437359-75fe-499d-a0ae-1b4d38875c55" />
 
 
-License
+
+# License
 
 This project is provided for educational and portfolio purposes.
 License: [MIT]
 
-Author
+# Author
 
 Md Toahir Hussain
+
 LinkedIn: [https://www.linkedin.com/in/md-toahir-hussain-79009a14b/]
 
