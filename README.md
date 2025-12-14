@@ -82,14 +82,12 @@ SVM is selected because it performs strongly on high-dimensional, sparse text fe
 
 ## Results Summary
 
-  #Best model: Support Vector Machine (SVM)
+Best model: Support Vector Machine (SVM)
 
 Evaluation metrics used: Accuracy, Precision, Recall, F1-score (and optional ROC-AUC)
 
-Accuracy: [xx.xx]
+Accuracy: 0.90
 
-F1-score: [xx.xx]
 
-Precision: [xx.xx]
+<img width="808" height="230" alt="{137FA43E-D7C8-4DAA-8D8D-CDB9C27EE521}" src="https://github.com/user-attachments/assets/f238a51a-9f2a-483a-95b3-f9ae718ac121" />
 
-Recall: [xx.xx]
