@@ -80,13 +80,11 @@ Random Forest (optional / comparison)
 
 SVM is selected because it performs strongly on high-dimensional, sparse text features (such as TF-IDF) and produces reliable decision boundaries for binary sentiment classification. It generalizes well and is a strong choice for production-style text classification.
 
-Results Summary
+## Results Summary
 
-Best model: Support Vector Machine (SVM)
+  #Best model: Support Vector Machine (SVM)
 
 Evaluation metrics used: Accuracy, Precision, Recall, F1-score (and optional ROC-AUC)
-
-Add your final numbers here (recommended):
 
 Accuracy: [xx.xx]
 
