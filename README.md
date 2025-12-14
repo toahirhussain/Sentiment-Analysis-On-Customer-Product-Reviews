@@ -96,7 +96,6 @@ Accuracy: 0.90
 
 # License
 
-This project is provided for educational and portfolio purposes.
 License: [MIT]
 
 # Author
