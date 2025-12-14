@@ -1,4 +1,4 @@
-Amazon Review Sentiment Analysis (Positive vs Negative)
+# Amazon Review Sentiment Analysis (Positive vs Negative)
 
 # Overview
 
@@ -44,7 +44,7 @@ TF-IDF or Bag-of-Words representation
 
 Train/Test Split
 
-Model Training
+# Model Training
 
 Baseline models (e.g., Logistic Regression, Naive Bayes)
 
@@ -54,7 +54,7 @@ Hyperparameter Tuning
 
 GridSearchCV / RandomizedSearchCV
 
-Model Evaluation
+# Model Evaluation
 
 Accuracy, Precision, Recall, F1-score
 
@@ -64,7 +64,7 @@ Feature Impact
 
 Permutation importance to interpret feature influence
 
-Models Used
+## Models Used
 
 Support Vector Machine (SVM) ✅ (Selected Model)
 
@@ -76,7 +76,7 @@ Bernoulli Naive Bayes
 
 Random Forest (optional / comparison)
 
-Why SVM?
+## Why SVM?
 
 SVM is selected because it performs strongly on high-dimensional, sparse text features (such as TF-IDF) and produces reliable decision boundaries for binary sentiment classification. It generalizes well and is a strong choice for production-style text classification.
 
