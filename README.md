@@ -1,92 +1,83 @@
 # Amazon Review Sentiment Analysis (Positive vs Negative)
 
-# Overview
+## Overview
 
 > This project builds a machine learning pipeline to classify Amazon product reviews as Positive or Negative using Natural Language Processing (NLP). The final selected model is a Support Vector Machine (SVM) trained on vectorized text features and evaluated using multiple classification metrics.
 
-# Objectives
+## Objectives
 
-Clean and preprocess raw review text
+  - Clean and preprocess raw review text
+  
+  - Convert text into numerical features (e.g., TF-IDF)
+  
+  - Train and tune multiple ML models
+  
+  - Select the best-performing model for sentiment prediction
+  
+  - Provide an evaluation summary and feature impact analysis
 
-Convert text into numerical features (e.g., TF-IDF)
 
-Train and tune multiple ML models
+## Workflow
 
-Select the best-performing model for sentiment prediction
+  - Data Loading
+  
+  - Text Preprocessing
+  
+  - Remove punctuation
+  
+  - Remove stopwords
+  
+  - Lemmatization
+  
+  - Vectorization
+  
+  - TF-IDF or Bag-of-Words representation
+  
+  - Train/Test Split
 
-Provide an evaluation summary and feature impact analysis
+## Model Training
 
-# Dataset
+- Baseline models (e.g., Logistic Regression, Naive Bayes)
 
-Source: [Add dataset source link or description]
+- Final model: SVM
 
-# Target: Sentiment label (Positive / Negative)
+- Hyperparameter Tuning
 
-Text Column: Review (or your column name)
+- GridSearchCV / RandomizedSearchCV
 
-Note: Any missing review values are handled to ensure stable preprocessing and vectorization.
+## Model Evaluation
 
-Workflow
-
-Data Loading
-
-Text Preprocessing
-
-Remove punctuation
-
-Remove stopwords
-
-Lemmatization
-
-Vectorization
-
-TF-IDF or Bag-of-Words representation
-
-Train/Test Split
-
-# Model Training
-
-Baseline models (e.g., Logistic Regression, Naive Bayes)
-
-Final model: SVM
-
-Hyperparameter Tuning
-
-GridSearchCV / RandomizedSearchCV
-
-# Model Evaluation
-
-Accuracy, Precision, Recall, F1-score
-
-Cross-validation
-
-Feature Impact
-
-Permutation importance to interpret feature influence
+  - Accuracy, Precision, Recall, F1-score
+  
+  - Cross-validation
+  
+  - Feature Impact
+  
+  - Permutation importance to interpret feature influence
 
 ## Models Used
 
-Support Vector Machine (SVM) ✅ (Selected Model)
-
-Logistic Regression
-
-Multinomial Naive Bayes
-
-Bernoulli Naive Bayes
-
-Random Forest (optional / comparison)
+  - Support Vector Machine (SVM) ✅ (Selected Model)
+  
+  - Logistic Regression
+  
+  - Multinomial Naive Bayes
+  
+  - Bernoulli Naive Bayes
+  
+  - Random Forest (optional / comparison)
 
 ## Why SVM?
 
-SVM is selected because it performs strongly on high-dimensional, sparse text features (such as TF-IDF) and produces reliable decision boundaries for binary sentiment classification. It generalizes well and is a strong choice for production-style text classification.
+> SVM is selected because it performs strongly on high-dimensional, sparse text features (such as TF-IDF) and produces reliable decision boundaries for binary sentiment classification. It generalizes well and is a strong choice for production-style text classification.
 
 ## Results Summary
 
-Best model: Support Vector Machine (SVM)
+  - Best model: Support Vector Machine (SVM)
+  
+  - Evaluation metrics used: Accuracy, Precision, Recall, F1-score (and optional ROC-AUC)
 
-Evaluation metrics used: Accuracy, Precision, Recall, F1-score (and optional ROC-AUC)
-
-Accuracy: 0.90
+  - Accuracy: 0.90
 
 
 <img width="808" height="230" alt="{137FA43E-D7C8-4DAA-8D8D-CDB9C27EE521}" src="https://github.com/user-attachments/assets/f238a51a-9f2a-483a-95b3-f9ae718ac121" />
@@ -94,11 +85,11 @@ Accuracy: 0.90
 
 
 
-# License
+## License
 
 License: [MIT]
 
-# Author
+## Author
 
 Md Toahir Hussain
 
