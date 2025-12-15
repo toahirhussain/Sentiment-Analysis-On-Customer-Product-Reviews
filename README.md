@@ -2,7 +2,7 @@
 
 # Overview
 
-This project builds a machine learning pipeline to classify Amazon product reviews as Positive or Negative using Natural Language Processing (NLP). The final selected model is a Support Vector Machine (SVM) trained on vectorized text features and evaluated using multiple classification metrics.
+> This project builds a machine learning pipeline to classify Amazon product reviews as Positive or Negative using Natural Language Processing (NLP). The final selected model is a Support Vector Machine (SVM) trained on vectorized text features and evaluated using multiple classification metrics.
 
 # Objectives
 
